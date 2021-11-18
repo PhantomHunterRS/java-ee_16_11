@@ -19,4 +19,5 @@ public class CatServlet extends HttpServlet {
         req.setAttribute("cat",catService.createNewCat());
         getServletContext().getRequestDispatcher("/cat.jsp").forward(req,resp);
     }
+
 }
