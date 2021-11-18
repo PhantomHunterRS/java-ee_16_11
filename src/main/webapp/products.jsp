@@ -15,9 +15,11 @@
     <h2>Products</h2>
     <hr>
     <ul>
+        <!--
         <% for (Product product: (List<Product>)((Product)request.getAttribute("products"))) { %>
         <li>id:<%=product.getId()%>, name_Product:<%=product.getTitle()%>, cost:<%=product.getCost()%> </li>
         <% } %>
+        -->
     </ul>
     <hr>
 
